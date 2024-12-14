@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <!--section1-->
+    <div id="section1" class="container">
+        <button class="btn1" onclick="generate_number_btn_click()">Generate Number</button>
+    </div>
+
+
+    <!--section3-->
+    <div id="section3" class="container">
+        <img src="https://studio.code.org/v3/assets/p_HtidK-zh8ihy-R2AKAei1yCchcQL4R0CAM3ofx74Q/SecondTartCygnet-size_restricted.gif"  alt="">
+    </div>
+
+
+
+
+<!--section2-->
+    <div id="section2" class="container">
+    <div class="guess">
+    <h2 >Number Guessing Game</h2>
+</div>
+    <div class="upper">
+        <div class="rules">Rules</div>
+        <ul>
+            <li>>> Choose a value between 1 to 100</li>
+            <li>>> You will be given only 5 chances</li>
+            <li>>> Optimize your guesses based on hints</li>
+        </ul>
+    </div>
+    <div class="game">
+        <input type="text" name="" id="guessValue" placeholder="Your guess...">
+        <button class="btn">Guess</button>
+        <span id="counter">0</span>
+        <div class="hint">*do the first guess to get a hint</div>
+        <button class="btn">Restart</button>
+    </div>
+    </div>
+    <script src="numberguess.js"></script>
+</body>
+</html>
+
